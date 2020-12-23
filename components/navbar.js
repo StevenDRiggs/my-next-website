@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div>
+    <nav>
       <ul>
         <li>
           <Link href='/about'>
@@ -31,7 +31,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-    </div>
+    </nav>
   )
 }
 
