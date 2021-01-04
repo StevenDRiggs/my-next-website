@@ -1,4 +1,10 @@
-const withImageElement = require('next-image-element')
+module.exports = {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"]
+    });
 
-
-module.exports = withImageElement()
+    return config;
+  }
+};
