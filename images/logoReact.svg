@@ -1,36 +1,6 @@
 <svg viewBox="0 0 100 100">
    <defs>
      <radialGradient
-          id="bodyGradient2"
-          fx="38"
-          fy="64"
-          r="28"
-          spreadMethod="pad">
-         <stop
-          offset="0%"
-          stopColor="floralwhite"
-          stopColor="#f5f0e6"
-          stopOpacity="1" />
-         <stop
-          offset="0.62637603"
-          stopColor="oldlace"
-          stopColor="#f3ebdc"
-          stopOpacity="1" />
-         <stop
-          offset="100%"
-          stopColor="slategray"
-          stopColor="#667686"
-          stopOpacity="1" />
-      </radialGradient>
-      <linearGradient id="beadGradient">
-        <stop
-          stopColor="oldlace"
-          offset="0" />
-         <stop
-          stopColor="#657585"
-          offset="1" />
-      </linearGradient>
-      <radialGradient
           id="bodyGradient"
           fx="38"
           fy="64"
@@ -38,27 +8,28 @@
           spreadMethod="pad">
          <stop
           offset="0%"
-          stopColor="floralwhite" />
+          stop-color="floralwhite"
+          stop-opacity="1" />
          <stop
           offset="0.62637603"
-          stopColor="oldlace" />
+          stop-color="oldlace"
+          stop-opacity="1" />
          <stop
           offset="100%"
-          stopColor="slategray" />
+          stop-color="slategray"
+          stop-opacity="1" />
       </radialGradient>
+      <linearGradient id="beadGradient">
+        <stop
+          stop-color="oldlace"
+          offset="0" />
+         <stop
+          stop-color="#657585"
+          offset="1" />
+      </linearGradient>
       <radialGradient
-          href="#bodyGradient"
-          id="chrysalisGradient1"
-          cx="35.191082"
-          cy="56.142757"
-          fx="35.191082"
-          fy="56.142757"
-          r="20.917013"
-          gradientTransform="matrix(1.720478,-1.6291252,0.8464316,0.89389554,-72.875402,67.017527)"
-          gradientUnits="userSpaceOnUse" />
-      <radialGradient
-         href="#bodyGradient2"
-         id="chrysalisGradient2"
+         href="#bodyGradient"
+         id="chrysalisGradient"
          cx="35.191082"
          cy="56.142757"
          fx="35.191082"
@@ -373,8 +344,8 @@
          strokeWidth="0.5"
          strokeLinecap="round"
          strokeLinejoin="round"
-         fillOpacity="1"
-         fill="url(#chrysalisGradient2)"
+         fill-opacity="1"
+         fill="url(#chrysalisGradient)"
          d="M 50.25 15 Q 38 20 35 25 Q 35.8 28.5 37 30 T 39 35 T 43 45 T 47 55 Q 50 59 55 60 Q 57.5 61 60 60.5 Q 62 61.5 62.5 61.5 T 65 62.5 T 67.5 63.5 T 70 64.5 Q 71 65 72.5 64 Q 74 63 76 65.5 Q 77 65.5 75 58 T 74 48 T 72 28 Q 72 24 69 20 T 66 15 Q 58 14 50.25 15" />
       <rect
          x="0"
@@ -384,7 +355,7 @@
          stroke="none"
          clip-path="url(#outlineClipPath)"
          filter="url(#backgroundTurbulenceFilter)"
-         fillOpacity="0.5" />
+         fill-opacity="0.5" />
    </g>
    <g id="foreground">
      <g
@@ -410,8 +381,8 @@
           strokeWidth="0.5"
           strokeLinecap="round"
           strokeLinejoin="round"
-          fillOpacity="0.25"
-          fill="url(#chrysalisGradient1)"
+          fill-opacity="0.25"
+          fill="url(#chrysalisGradient)"
           d="M 50.25 15 Q 38 20 35 25 Q 35.8 28.5 37 30 T 39 35 T 43 45 T 47 55 Q 50 59 55 60 Q 57.5 61 60 60.5 Q 62 61.5 62.5 61.5 T 65 62.5 T 67.5 63.5 T 70 64.5 Q 71 65 72.5 64 Q 74 63 76 65.5 Q 77 65.5 75 58 T 74 48 T 72 28 Q 72 24 69 20 T 66 15 Q 58 14 50.25 15" />
       <g id="beads">
         <ellipse
