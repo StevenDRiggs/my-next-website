@@ -307,6 +307,7 @@
           y2="25.054688"
           gradientUnits="userSpaceOnUse"
           gradientTransform="matrix(4,0,0,4,-92.28524,-54.66412)" />
+
       <filter id="backgroundTurbulenceFilter">
         <feTurbulence
             baseFrequency="0.05"
@@ -341,9 +342,9 @@
       <path
          id="outlineBackground"
          stroke="none"
-         strokeWidth="0.5"
-         strokeLinecap="round"
-         strokeLinejoin="round"
+         stroke-width="0.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
          fill-opacity="1"
          fill="url(#chrysalisGradient)"
          d="M 50.25 15 Q 38 20 35 25 Q 35.8 28.5 37 30 T 39 35 T 43 45 T 47 55 Q 50 59 55 60 Q 57.5 61 60 60.5 Q 62 61.5 62.5 61.5 T 65 62.5 T 67.5 63.5 T 70 64.5 Q 71 65 72.5 64 Q 74 63 76 65.5 Q 77 65.5 75 58 T 74 48 T 72 28 Q 72 24 69 20 T 66 15 Q 58 14 50.25 15" />
@@ -357,6 +358,7 @@
          filter="url(#backgroundTurbulenceFilter)"
          fill-opacity="0.5" />
    </g>
+
    <g id="foreground">
      <g
         id="branchStem"
@@ -364,32 +366,33 @@
          <path
           id="branch"
           stroke="#763013"
-          strokeWidth="3"
-          strokeLinecap="square"
+          stroke-width="3"
+          stroke-linecap="square"
           fill="none"
           d="M 40 10 Q 46 11 60 10" />
          <path
           id="stem"
           stroke="#8B4513"
-          strokeLinecap="square"
+          stroke-linecap="square"
           fill="black"
           d="M 50 11 Q 50.5 15 49.5 15 H 50.5 Q 49.9 15 51 11 Z" />
       </g>
+
       <path
           id="outline"
           stroke="none"
-          strokeWidth="0.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          stroke-width="0.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
           fill-opacity="0.25"
           fill="url(#chrysalisGradient)"
           d="M 50.25 15 Q 38 20 35 25 Q 35.8 28.5 37 30 T 39 35 T 43 45 T 47 55 Q 50 59 55 60 Q 57.5 61 60 60.5 Q 62 61.5 62.5 61.5 T 65 62.5 T 67.5 63.5 T 70 64.5 Q 71 65 72.5 64 Q 74 63 76 65.5 Q 77 65.5 75 58 T 74 48 T 72 28 Q 72 24 69 20 T 66 15 Q 58 14 50.25 15" />
+          
       <g id="beads">
         <ellipse
           fill="url(#beadGradient32)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="35.017548"
           cy="25.010122"
           rx="0.40134975"
@@ -397,8 +400,7 @@
          <ellipse
           fill="url(#beadGradient23)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="36.371803"
           cy="25.19068"
           rx="0.40134975"
@@ -406,8 +408,7 @@
          <ellipse
           fill="url(#beadGradient2)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="37.808117"
           cy="25.500038"
           rx="0.40134975"
@@ -415,8 +416,7 @@
          <ellipse
           fill="url(#beadGradient24)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="39.310719"
           cy="25.831493"
           rx="0.40134975"
@@ -424,8 +424,7 @@
          <ellipse
           fill="url(#beadGradient25)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="40.72493"
           cy="26.185047"
           rx="0.40134975"
@@ -433,8 +432,7 @@
          <ellipse
           fill="url(#beadGradient3)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="42.161243"
           cy="26.582796"
           rx="0.40134975"
@@ -442,8 +440,7 @@
          <ellipse
           fill="url(#beadGradient4)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="43.531258"
           cy="26.980543"
           rx="0.40134975"
@@ -451,8 +448,7 @@
          <ellipse
           fill="url(#beadGradient26)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="44.967571"
           cy="27.488777"
           rx="0.40134975"
@@ -460,8 +456,7 @@
          <ellipse
           fill="url(#beadGradient27)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="46.315495"
           cy="27.974913"
           rx="0.40134975"
@@ -469,8 +464,7 @@
          <ellipse
           fill="url(#beadGradient28)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="47.641319"
           cy="28.682018"
           rx="0.40134975"
@@ -478,8 +472,7 @@
          <ellipse
           fill="url(#beadGradient5)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="48.768272"
           cy="29.521709"
           rx="0.40134975"
@@ -487,8 +480,7 @@
          <ellipse
           fill="url(#beadGradient19)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="49.453281"
           cy="30.40559"
           rx="0.40134975"
@@ -496,8 +488,7 @@
          <ellipse
           fill="url(#beadGradient29)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="65.760933"
           cy="15.202796"
           rx="0.40134975"
@@ -505,8 +496,7 @@
          <ellipse
           fill="url(#beadGradient20)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="64.744469"
           cy="16.83798"
           rx="0.40134975"
@@ -514,8 +504,7 @@
          <ellipse
           fill="url(#beadGradient6)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="63.595413"
           cy="18.473164"
           rx="0.40134975"
@@ -523,8 +512,7 @@
          <ellipse
           fill="url(#beadGradient7)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="62.479515"
           cy="20.108349"
           rx="0.40134975"
@@ -532,8 +520,7 @@
          <ellipse
           fill="url(#beadGradient8)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="61.418854"
           cy="21.655146"
           rx="0.40134975"
@@ -541,8 +528,7 @@
          <ellipse
           fill="url(#beadGradient10)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="60.225609"
           cy="23.345572"
           rx="0.40134975"
@@ -550,8 +536,7 @@
          <ellipse
           fill="url(#beadGradient11)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="59.131805"
           cy="24.95866"
           rx="0.40134975"
@@ -559,8 +544,7 @@
          <ellipse
           fill="url(#beadGradient21)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="57.927513"
           cy="26.859009"
           rx="0.40134975"
@@ -568,8 +552,7 @@
          <ellipse
           fill="url(#beadGradient30)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="56.734272"
           cy="28.52734"
           rx="0.40134975"
@@ -577,8 +560,7 @@
          <ellipse
           fill="url(#beadGradient12)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="55.563126"
           cy="30.3393"
           rx="0.40134975"
@@ -586,8 +568,7 @@
          <ellipse
           fill="url(#beadGradient13)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="54.391979"
           cy="32.129166"
           rx="0.40134975"
@@ -595,8 +576,7 @@
          <ellipse
           fill="url(#beadGradient22)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="53.430756"
           cy="33.775398"
           rx="0.40134975"
@@ -604,8 +584,7 @@
          <ellipse
           fill="url(#beadGradient14)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="52.292755"
           cy="35.465824"
           rx="0.40134975"
@@ -613,8 +592,7 @@
          <ellipse
           fill="url(#beadGradient15)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="51.110561"
           cy="37.443512"
           rx="0.40134975"
@@ -622,8 +600,7 @@
          <ellipse
           fill="url(#beadGradient16)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="50.13829"
           cy="39.233376"
           rx="0.40134975"
@@ -631,8 +608,7 @@
          <ellipse
           fill="url(#beadGradient31)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="49.044483"
           cy="41.376797"
           rx="0.40134975"
@@ -640,8 +616,7 @@
          <ellipse
           fill="url(#beadGradient17)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="48.050114"
           cy="43.564407"
           rx="0.40134975"
@@ -649,8 +624,7 @@
          <ellipse
           fill="url(#beadGradient18)"
           stroke="none"
-          strokeWidth="4"
-
+          stroke-width="4"
           cx="47.78495"
           cy="45.376366"
           rx="0.40134975"

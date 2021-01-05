@@ -7,21 +7,21 @@ import '../styles/globals.css'
 
 
 function App({ Component, pageProps }) {
-  console.log(Logo)
   return (
     <>
       <Head>
         <title>Steven Riggs | {Component.name}</title>
-        <link rel='stylesheet' href='https: //fonts.googleapis.com/css2?family=Fugaz+One&display=swap' />
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap' />
       </Head>
 
       <Logo />
 
-      {/* <Navbar /> */}
+      <Navbar />
       
-      {/* <Component {...pageProps} /> */}
+      <Component {...pageProps} />
     </>
   )
 }
+
 
 export default App
