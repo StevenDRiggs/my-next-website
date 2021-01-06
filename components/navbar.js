@@ -17,33 +17,41 @@ class Navbar extends Component {
     return (
       <nav className={styles.navbar}>
         <ul>
-            <Link href='/about'>
-              <a>
-          <li className={styles.navlink}>
-              About
-          </li>
-              </a>
-            </Link>
-          <li className={styles.navlink}>
-            <Link href='/portfolio'>
-              <a>Portfolio</a>
-            </Link>
-          </li>
-          <li className={styles.navlink} onMouseEnter={this.wtfMouseEnter} onMouseLeave={this.wtfMouseLeave}>
-            <Link href='/blog'>
-              <a>WTF</a>
-            </Link>
-          </li>
-          <li className={styles.navlink}>
-            <Link href='/resume'>
-              <a>Resume</a>
-            </Link>
-          </li>
-          <li className={styles.navlink}>
-            <Link href='/contact'>
-              <a>Contact Me</a>
-            </Link>
-          </li>
+          <Link href='/about'>
+            <a>
+              <li className={styles.navlink}>
+                About
+              </li>
+            </a>
+          </Link>
+          <Link href='/portfolio'>
+            <a>
+              <li className={styles.navlink}>
+                Portfolio
+              </li>
+            </a>
+          </Link>
+          <Link href='/blog'>
+            <a>
+              <li className={styles.navlink} onMouseEnter={this.wtfMouseEnter} onMouseLeave={this.wtfMouseLeave}>
+                WTF
+              </li>
+            </a>
+          </Link>
+          <Link href='/resume'>
+            <a>
+              <li className={styles.navlink}>
+                Resume
+              </li>
+            </a>
+          </Link>
+          <Link href='/contact'>
+            <a>
+              <li className={styles.navlink}>
+                Contact Me
+              </li>
+            </a>
+          </Link>
         </ul>
       </nav>
     )
