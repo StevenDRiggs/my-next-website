@@ -14,9 +14,9 @@ function App({ Component, pageProps }) {
         <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap' />
       </Head>
 
-      <Logo />
-
       <Navbar />
+
+      <Logo className='chrysalis-logo' />
       
       <Component {...pageProps} />
     </>

@@ -17,3 +17,13 @@ a {
 html {
   background-color: rgba(84, 88, 127, 0.3);
 }
+
+
+.chrysalis-logo {
+  width: 10%;
+  min-width: 50px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
