@@ -1,4 +1,11 @@
 .resume {
-  width: 80vw;;
-  height: 90vh;
+  width: auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .resume {
+    width: 80vw;;
+    height: 90vh;
+  }
 }
