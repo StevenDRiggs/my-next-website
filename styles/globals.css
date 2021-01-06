@@ -18,6 +18,7 @@ html {
 .chrysalis-logo {
   width: 10%;
   min-width: 50px;
+  max-width: 75px;
   display: inline-block;
   position: fixed;
   top: 0;
@@ -26,7 +27,7 @@ html {
 
 .main-display {
     display: flex;
-    margin: auto;
+    margin: 15% auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -41,6 +42,7 @@ html {
 @media screen and (max-width: 600px) {
   .main-display {
     height: 90vh;
+    margin: auto;
     padding: 0 0.5em 0 4.5em;
   }
 }
