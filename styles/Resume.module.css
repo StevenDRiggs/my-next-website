@@ -2,7 +2,7 @@
   width: 40vw;
   height: 90vh;
   position: relative;
-  top: -30vh;
+  top: -25vh;
 }
 
 .downloadBtn, .openNewWindowBtn {
@@ -25,5 +25,35 @@
   .resume {
     width: 80vw;
     top: 0;
+  }
+
+  .downloadBtn, .openNewWindowBtn {
+    right: auto;
+    top: 10vh;
+  }
+
+  .downloadBtn {
+    left: 20vw;
+  }
+
+  .openNewWindowBtn {
+    right: 20vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .downloadBtn, .openNewWindowBtn {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .downloadBtn, .openNewWindowBtn {
+    left: auto;
+    right: 0;
+  }
+
+  .openNewWindowBtn {
+    top: 4vh;
   }
 }
