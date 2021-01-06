@@ -17,11 +17,13 @@ class Navbar extends Component {
     return (
       <nav className={styles.navbar}>
         <ul>
-          <li className={styles.navlink}>
             <Link href='/about'>
-              <a>About</a>
-            </Link>
+              <a>
+          <li className={styles.navlink}>
+              About
           </li>
+              </a>
+            </Link>
           <li className={styles.navlink}>
             <Link href='/portfolio'>
               <a>Portfolio</a>
