@@ -23,3 +23,24 @@ html {
   top: 0;
   left: 0;
 }
+
+.main-display {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (600px < width < 1000px) {
+  .main-display {
+    margin: 0.5em 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-display {
+    height: 90vh;
+    padding: 0 0.5em 0 4.5em;
+  }
+}

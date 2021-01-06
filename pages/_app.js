@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Navbar from '../components/navbar'
 import Logo from '../images/logoReact.svg'
@@ -6,7 +7,7 @@ import Logo from '../images/logoReact.svg'
 import '../styles/globals.css'
 
 
-function App({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
@@ -16,9 +17,15 @@ function App({ Component, pageProps }) {
 
       <Navbar />
 
-      <Logo className='chrysalis-logo' />
+      <Link href='/'>
+        <a>
+          <Logo className='chrysalis-logo' />
+        </a>
+      </Link>
       
-      <Component {...pageProps} />
+      <div className='main-display'>
+        <Component {...pageProps} />
+      </div>
     </>
   )
 }
