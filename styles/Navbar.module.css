@@ -48,5 +48,6 @@
 
 @media screen and (600px < width < 1000px) {
   .navbar {
+    padding-left: 70px;
   }
 }
