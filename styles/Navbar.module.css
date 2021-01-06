@@ -46,3 +46,7 @@
   }
 }
 
+@media screen and (600px < width < 1000px) {
+  .navbar {
+  }
+}
