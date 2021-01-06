@@ -36,13 +36,15 @@ html {
 
 @media screen and (600px < width < 1000px) {
   .main-display {
-    margin: 0.5em 1em;
+    margin: 0.5em auto;
+    width: 70%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .main-display {
     height: 90vh;
+    width: 76%;
     margin: auto;
     padding: 0 0.5em 0 4.5em;
   }
