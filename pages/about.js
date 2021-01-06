@@ -7,6 +7,7 @@ const About = () => {
   return (
     <article>
       <h2>About Me</h2>
+      <br />
       <img
         src='/Steven_Riggs_photo.jpg'
         alt='Steven Riggs'
