@@ -24,7 +24,6 @@ class Contact extends Component {
   }
 
   handleCheckbox = event => {
-    event.preventDefault()
     this.setState({
       ...this.state,
       response: !this.state.response,
